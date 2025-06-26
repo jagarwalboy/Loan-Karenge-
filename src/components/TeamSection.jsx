@@ -42,7 +42,7 @@ const TeamSection = () => {
             <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden shadow-lg bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white">
               <img
                 alt="Akshay Kumar - Senior Loan Advisor icon"
-                className="w-20 h-20"
+                className="w-full h-full object-cover object-top"
                 src="/images/akshay.jpg"
               />
             </div>
@@ -60,7 +60,7 @@ const TeamSection = () => {
             <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden shadow-lg bg-gradient-to-br from-green-400 to-teal-500 flex items-center justify-center text-white">
               <img
                 alt="Sunil Kumar - Financial Consultant icon"
-                className="w-20 h-20"
+                className="w-full h-full object-cover object-top"
                 src="/images/sunil.jpg"
               />
             </div>
