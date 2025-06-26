@@ -43,7 +43,7 @@ const TeamSection = () => {
               <img
                 alt="Akshay Kumar - Senior Loan Advisor icon"
                 className="w-20 h-20"
-                src="https://raw.githubusercontent.com/yourusername/yourrepo/main/images/akshay.jpg"
+                src="/images/akshay.jpg"
               />
             </div>
             <h3 className="text-2xl font-bold text-gray-800 mb-2">Akshay Kumar</h3>
@@ -61,7 +61,7 @@ const TeamSection = () => {
               <img
                 alt="Sunil Kumar - Financial Consultant icon"
                 className="w-20 h-20"
-                src="https://raw.githubusercontent.com/yourusername/yourrepo/main/images/sunil.jpg"
+                src="/images/sunil.jpg"
               />
             </div>
             <h3 className="text-2xl font-bold text-gray-800 mb-2">Sunil Kumar</h3>
