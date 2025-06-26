@@ -8,9 +8,11 @@ const Footer = ({ onCalculatorClick }) => {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 gradient-bg rounded-lg flex items-center justify-center">
-                <DollarSign className="w-6 h-6 text-white" />
-              </div>
+              <img
+                src="/images/logo.jpg"
+                alt="Company Logo"
+                className="w-10 h-10 rounded-full shadow object-cover bg-white"
+              />
               <span className="text-xl font-bold">Loan Karenge</span>
             </div>
             <p className="text-gray-400">
@@ -54,19 +56,6 @@ const Footer = ({ onCalculatorClick }) => {
               <p>+91 7737910090</p>
               <p>info@loankarenge.com</p>
             </div>
-          </div>
-        </div>
-        {/* Bank logos and tagline */}
-        <div className="flex flex-col items-center mt-8">
-          <span className="text-lg font-semibold mb-2 block">We work for</span>
-          <div className="flex flex-wrap gap-4 justify-center items-center">
-            {/* Replace with your actual bank logo PNGs in /public/banks/ */}
-            <img src="/banks/sbi.png" alt="SBI" className="h-10" />
-            <img src="/banks/hdfc.png" alt="HDFC" className="h-10" />
-            <img src="/banks/icici.png" alt="ICICI" className="h-10" />
-            <img src="/banks/axis.png" alt="Axis" className="h-10" />
-            <img src="/banks/kotak.png" alt="Kotak" className="h-10" />
-            {/* Add more as needed */}
           </div>
         </div>
         

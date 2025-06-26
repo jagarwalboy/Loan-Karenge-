@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { DollarSign } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Header = ({ onApplyLoanClick }) => {
@@ -13,9 +12,11 @@ const Header = ({ onApplyLoanClick }) => {
             animate={{ opacity: 1, x: 0 }}
             className="flex items-center gap-3"
           >
-            <div className="w-12 h-12 gradient-bg rounded-xl flex items-center justify-center">
-              <DollarSign className="w-8 h-8 text-white" />
-            </div>
+            <img
+              src="/images/logo.jpg"
+              alt="Company Logo"
+              className="w-12 h-12 rounded-full shadow object-cover bg-white"
+            />
             <div>
               <h1 className="text-2xl font-bold gradient-text">Loan Karenge</h1>
               <p className="text-sm text-gray-600">Your Financial Partner</p>
