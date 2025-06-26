@@ -25,6 +25,24 @@ const TestimonialsSection = () => {
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
+        {/* Indian Banks Logo Slider Section */}
+        <div className="mb-12">
+          <div className="overflow-x-auto whitespace-nowrap py-4">
+            <div className="inline-flex gap-8 items-center animate-scroll-x">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/State_Bank_of_India_logo.svg" alt="SBI" className="h-12 w-auto bg-white rounded shadow" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/HDFC_Bank_Logo.svg" alt="HDFC" className="h-12 w-auto bg-white rounded shadow" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/ICICI_Bank_Logo.svg" alt="ICICI" className="h-12 w-auto bg-white rounded shadow" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Axis_Bank_logo.svg" alt="Axis" className="h-12 w-auto bg-white rounded shadow" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Kotak_Mahindra_Bank_logo.svg" alt="Kotak" className="h-12 w-auto bg-white rounded shadow" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Bank_of_Baroda_logo.svg" alt="Bank of Baroda" className="h-12 w-auto bg-white rounded shadow" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/IDFC_FIRST_Bank_Logo.svg" alt="IDFC First" className="h-12 w-auto bg-white rounded shadow" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/IndusInd_Bank_logo.svg" alt="IndusInd" className="h-12 w-auto bg-white rounded shadow" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Yes_Bank_logo.svg" alt="Yes Bank" className="h-12 w-auto bg-white rounded shadow" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Punjab_National_Bank_Logo.svg" alt="PNB" className="h-12 w-auto bg-white rounded shadow" />
+            </div>
+          </div>
+        </div>
+
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
