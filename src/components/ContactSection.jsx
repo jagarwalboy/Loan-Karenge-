@@ -34,6 +34,11 @@ const ContactSection = () => {
                   Shyam Nagar<br />
                   Jodhpur 342001
                 </p>
+                <p className="text-gray-600 mt-4">
+                  Office No -33, Swarndeep Apartment,<br />
+                  High Court Colony, Ratanada,<br />
+                  Jodhpur 342001
+                </p>
               </div>
             </div>
 
