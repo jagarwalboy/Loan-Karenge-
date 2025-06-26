@@ -53,13 +53,8 @@ const ServicesSection = ({ onApplyLoanClick }) => {
         <div className="mb-12">
           {/* <h3 className="text-2xl font-semibold text-gray-700 mb-4">We Work For</h3> */}
           <div className="overflow-x-auto whitespace-nowrap py-2">
-            <div className="inline-flex gap-8 items-center animate-scroll-x">
-              <img src="/banks/sbi.png" alt="SBI" className="h-12" />
-              <img src="/banks/hdfc.png" alt="HDFC" className="h-12" />
-              <img src="/banks/icici.png" alt="ICICI" className="h-12" />
-              <img src="/banks/axis.png" alt="Axis" className="h-12" />
-              <img src="/banks/kotak.png" alt="Kotak" className="h-12" />
-              {/* Add more bank logos as needed */}
+            <div className="inline-flex gap-8 items-center animate-scroll-x min-h-[48px]">
+              {/* No bank images available */}
             </div>
           </div>
         </div>
