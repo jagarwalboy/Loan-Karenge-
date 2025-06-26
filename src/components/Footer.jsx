@@ -50,9 +50,23 @@ const Footer = ({ onCalculatorClick }) => {
             <div className="space-y-2 text-gray-400">
               <p>First Floor Plot no 22, Shyam Nagar</p>
               <p>Jodhpur 342001</p>
+              <p>Office No -33, Swarndeep Apartment, High Court Colony, Ratanada, Jodhpur 342001</p>
               <p>+91 7737910090</p>
               <p>info@loankarenge.com</p>
             </div>
+          </div>
+        </div>
+        {/* Bank logos and tagline */}
+        <div className="flex flex-col items-center mt-8">
+          <span className="text-lg font-semibold mb-2 block">We work for</span>
+          <div className="flex flex-wrap gap-4 justify-center items-center">
+            {/* Replace with your actual bank logo PNGs in /public/banks/ */}
+            <img src="/banks/sbi.png" alt="SBI" className="h-10" />
+            <img src="/banks/hdfc.png" alt="HDFC" className="h-10" />
+            <img src="/banks/icici.png" alt="ICICI" className="h-10" />
+            <img src="/banks/axis.png" alt="Axis" className="h-10" />
+            <img src="/banks/kotak.png" alt="Kotak" className="h-10" />
+            {/* Add more as needed */}
           </div>
         </div>
         

@@ -33,7 +33,7 @@ const FloatingWhatsApp = () => {
           <p className="text-sm font-medium text-gray-800 mb-2">Need Help? Chat with us!</p>
           <div className="space-y-2">
             <WhatsAppButton name="Akshay Kumar" number="917737910090" />
-            <WhatsAppButton name="Sunil Jatav" number="919024724246" />
+            <WhatsAppButton name="Sunil Kumar" number="919024724246" />
           </div>
         </div>
       </motion.div>

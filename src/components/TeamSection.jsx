@@ -54,12 +54,12 @@ const TeamSection = () => {
             className="text-center p-6 bg-white rounded-xl shadow-lg"
           >
             <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden shadow-lg bg-gradient-to-br from-green-400 to-teal-500 flex items-center justify-center text-white">
-              <img  alt="Sunil Jatav - Financial Consultant icon" class="w-20 h-20" src="https://images.unsplash.com/flagged/photo-1608632359963-5828fa3b4141" />
+              <img  alt="Sunil Kumar - Financial Consultant icon" class="w-20 h-20" src="https://images.unsplash.com/flagged/photo-1608632359963-5828fa3b4141" />
             </div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-2">Sunil Jatav</h3>
+            <h3 className="text-2xl font-bold text-gray-800 mb-2">Sunil Kumar</h3>
             <p className="text-gray-600 mb-4">Financial Consultant</p>
             <p className="text-gray-700 mb-6">Expert in home loans and investment planning with 8+ years experience</p>
-            <WhatsAppButton name="Sunil Jatav" number="919024724246" />
+            <WhatsAppButton name="Sunil Kumar" number="919024724246" />
           </motion.div>
         </div>
       </div>

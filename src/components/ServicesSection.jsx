@@ -55,9 +55,9 @@ const ServicesSection = ({ onApplyLoanClick }) => {
             title="Personal Loan"
             description="Quick personal loans for all your immediate financial needs."
             features={[
-              "Loan amount up to ₹25 Lakhs",
-              "Interest rates from 10.99%",
-              "Tenure up to 5 years",
+              "Loan amount up to ₹1 Crore",
+              "Interest rates from 10.5%",
+              "Tenure up to 8 years",
               "Minimal documentation",
               "Quick disbursal in 24 hours"
             ]}
@@ -85,9 +85,9 @@ const ServicesSection = ({ onApplyLoanClick }) => {
             title="Business Loan"
             description="Fuel your business growth with our flexible business loans."
             features={[
-              "Loan amount up to ₹50 Lakhs",
-              "Interest rates from 12%",
-              "Tenure up to 7 years",
+              "Loan amount up to ₹1 Crore",
+              "Interest rates from 14%",
+              "Tenure up to 4 years",
               "Collateral-free options",
               "Quick approval process"
             ]}
@@ -122,6 +122,21 @@ const ServicesSection = ({ onApplyLoanClick }) => {
               "Fast approval"
             ]}
             color="bg-gradient-to-br from-yellow-400 to-orange-500"
+            onApplyLoanClick={onApplyLoanClick}
+          />
+
+          <LoanCard
+            icon={CreditCard}
+            title="Flexi Loan / OD"
+            description="Flexible overdraft facility for your evolving financial needs."
+            features={[
+              "Loan amount up to ₹40 Lakhs",
+              "Interest rate from 13.5%",
+              "Tenure up to 8 years",
+              "Flexible withdrawals and repayments",
+              "Pay interest only on the amount used"
+            ]}
+            color="bg-gradient-to-br from-pink-500 to-blue-500"
             onApplyLoanClick={onApplyLoanClick}
           />
         </div>
