@@ -15,7 +15,7 @@ const Header = ({ onApplyLoanClick }) => {
             <img
               src="/images/logo.jpg"
               alt="Company Logo"
-              className="w-12 h-12 rounded-full shadow object-cover bg-white"
+              className="w-20 h-20 rounded-full shadow object-cover bg-white"
             />
             <div>
               <h1 className="text-2xl font-bold gradient-text">Loan Karenge</h1>

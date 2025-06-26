@@ -11,7 +11,7 @@ const Footer = ({ onCalculatorClick }) => {
               <img
                 src="/images/logo.jpg"
                 alt="Company Logo"
-                className="w-10 h-10 rounded-full shadow object-cover bg-white"
+                className="w-20 h-20 rounded-full shadow object-cover bg-white"
               />
               <span className="text-xl font-bold">Loan Karenge</span>
             </div>
