@@ -40,7 +40,11 @@ const TeamSection = () => {
             className="text-center p-6 bg-white rounded-xl shadow-lg"
           >
             <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden shadow-lg bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white">
-              <img  alt="Akshay Kumar - Senior Loan Advisor icon" class="w-20 h-20" src="https://images.unsplash.com/flagged/photo-1608632359963-5828fa3b4141" />
+              <img
+                alt="Akshay Kumar - Senior Loan Advisor icon"
+                className="w-20 h-20"
+                src="https://raw.githubusercontent.com/yourusername/yourrepo/main/images/akshay.jpg"
+              />
             </div>
             <h3 className="text-2xl font-bold text-gray-800 mb-2">Akshay Kumar</h3>
             <p className="text-gray-600 mb-4">Senior Loan Advisor</p>
@@ -54,7 +58,11 @@ const TeamSection = () => {
             className="text-center p-6 bg-white rounded-xl shadow-lg"
           >
             <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden shadow-lg bg-gradient-to-br from-green-400 to-teal-500 flex items-center justify-center text-white">
-              <img  alt="Sunil Kumar - Financial Consultant icon" class="w-20 h-20" src="https://images.unsplash.com/flagged/photo-1608632359963-5828fa3b4141" />
+              <img
+                alt="Sunil Kumar - Financial Consultant icon"
+                className="w-20 h-20"
+                src="https://raw.githubusercontent.com/yourusername/yourrepo/main/images/sunil.jpg"
+              />
             </div>
             <h3 className="text-2xl font-bold text-gray-800 mb-2">Sunil Kumar</h3>
             <p className="text-gray-600 mb-4">Financial Consultant</p>
