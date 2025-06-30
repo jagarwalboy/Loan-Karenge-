@@ -39,24 +39,6 @@ const TeamSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             className="text-center p-6 bg-white rounded-xl shadow-lg"
           >
-            <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden shadow-lg bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white">
-              <img
-                alt="Akshay Kumar - Senior Loan Advisor icon"
-                className="w-full h-full object-cover object-top"
-                src="/images/akshay.jpg"
-              />
-            </div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-2">Akshay Kumar</h3>
-            <p className="text-gray-600 mb-4">Senior Loan Advisor</p>
-            <p className="text-gray-700 mb-6">10+ years of experience in financial services and loan processing</p>
-            <WhatsAppButton name="Akshay Kumar" number="917737910090" />
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            className="text-center p-6 bg-white rounded-xl shadow-lg"
-          >
             <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden shadow-lg bg-gradient-to-br from-green-400 to-teal-500 flex items-center justify-center text-white">
               <img
                 alt="Sunil Kumar - Financial Consultant icon"
@@ -68,6 +50,24 @@ const TeamSection = () => {
             <p className="text-gray-600 mb-4">Financial Consultant</p>
             <p className="text-gray-700 mb-6">Expert in home loans and investment planning with 8+ years experience</p>
             <WhatsAppButton name="Sunil Kumar" number="919024724246" />
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            className="text-center p-6 bg-white rounded-xl shadow-lg"
+          >
+            <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden shadow-lg bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white">
+              <img
+                alt="Akshay Kumar - Senior Loan Advisor icon"
+                className="w-full h-full object-cover object-top"
+                src="/images/akshay.jpg"
+              />
+            </div>
+            <h3 className="text-2xl font-bold text-gray-800 mb-2">Akshay Kumar</h3>
+            <p className="text-gray-600 mb-4">Senior Loan Advisor</p>
+            <p className="text-gray-700 mb-6">10+ years of experience in financial services and loan processing</p>
+            <WhatsAppButton name="Akshay Kumar" number="917737910090" />
           </motion.div>
         </div>
       </div>

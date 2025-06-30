@@ -49,8 +49,8 @@ const ContactSection = () => {
               <div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Phone Numbers</h3>
                 <p className="text-gray-600">
-                  +91 7737910090 (Akshay Kumar)<br />
-                  +91 9024724246 (Sunil Kumar)
+                  +91 9024724246 (Sunil Kumar)<br />
+                  +91 7737910090 (Akshay Kumar)
                 </p>
               </div>
             </div>
