@@ -12,6 +12,7 @@ import Footer from '@/components/Footer';
 import FloatingWhatsApp from '@/components/FloatingWhatsApp';
 import LoanApplicationModal from '@/components/LoanApplicationModal';
 import EMICalculatorModal from '@/components/EMICalculatorModal';
+import WeWorkFor from '@/components/WeWorkFor';
 
 function App() {
   const [isLoanModalOpen, setIsLoanModalOpen] = useState(false);
@@ -48,6 +49,7 @@ function App() {
       <Header onApplyLoanClick={() => handleOpenLoanModal()} />
       <HeroSection onApplyLoanClick={() => handleOpenLoanModal()} onCalculatorClick={handleOpenCalculatorModal} />
       <ServicesSection onApplyLoanClick={handleOpenLoanModal} />
+      <WeWorkFor />
       <FeaturesSection />
       <TestimonialsSection />
       <TeamSection />
