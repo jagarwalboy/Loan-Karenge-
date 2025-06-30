@@ -5,7 +5,6 @@ import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
 import ServicesSection from '@/components/ServicesSection';
 import FeaturesSection from '@/components/FeaturesSection';
-import BankSliderSection from '@/components/BankSliderSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import TeamSection from '@/components/TeamSection';
 import ContactSection from '@/components/ContactSection';
@@ -50,7 +49,6 @@ function App() {
       <HeroSection onApplyLoanClick={() => handleOpenLoanModal()} onCalculatorClick={handleOpenCalculatorModal} />
       <ServicesSection onApplyLoanClick={handleOpenLoanModal} />
       <FeaturesSection />
-      <BankSliderSection />
       <TestimonialsSection />
       <TeamSection />
       <ContactSection />

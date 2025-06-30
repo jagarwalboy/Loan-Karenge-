@@ -190,7 +190,6 @@ logger.error = (msg, options) => {
 }
 
 export default defineConfig({
-	base: '/Loan-Karenge-/', // Set base for GitHub Pages
 	customLogger: logger,
 	plugins: [
 		...(isDev ? [inlineEditPlugin(), editModeDevPlugin()] : []),

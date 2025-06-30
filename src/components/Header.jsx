@@ -13,7 +13,7 @@ const Header = ({ onApplyLoanClick }) => {
             className="flex items-center gap-3"
           >
             <img
-              src={`${import.meta.env.BASE_URL}images/logo.jpg`}
+              src="/images/logo.jpg"
               alt="Company Logo"
               className="w-20 h-20 rounded-full shadow object-cover bg-white"
             />
