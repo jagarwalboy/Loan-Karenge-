@@ -2,13 +2,13 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const bankLogos = [
-  { src: "/images/banks/icici.png", alt: "ICICI Bank" },
-  { src: "/images/banks/bob.png", alt: "Bank of Baroda" },
-  { src: "/images/banks/yesbank.png", alt: "Yes Bank" },
-  { src: "/images/banks/hdfc.png", alt: "HDFC Bank" },
-  { src: "/images/banks/uco.png", alt: "UCO Bank" },
-  { src: "/images/banks/federal.png", alt: "Federal Bank" },
-  { src: "/images/banks/hsbc.png", alt: "HSBC Bank" },
+  { src: `${import.meta.env.BASE_URL}images/banks/icici.png`, alt: "ICICI Bank" },
+  { src: `${import.meta.env.BASE_URL}images/banks/bob.png`, alt: "Bank of Baroda" },
+  { src: `${import.meta.env.BASE_URL}images/banks/yesbank.png`, alt: "Yes Bank" },
+  { src: `${import.meta.env.BASE_URL}images/banks/hdfc.png`, alt: "HDFC Bank" },
+  { src: `${import.meta.env.BASE_URL}images/banks/uco.png`, alt: "UCO Bank" },
+  { src: `${import.meta.env.BASE_URL}images/banks/federal.png`, alt: "Federal Bank" },
+  { src: `${import.meta.env.BASE_URL}images/banks/hsbc.png`, alt: "HSBC Bank" },
 ];
 
 const BankSliderSection = () => {
